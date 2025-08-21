@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>TALCA SCENT</title>
+<link href="favicon.ico" rel="icon" type="image/x-icon"/>
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background-color: #222;
+      color: white;
+      padding: 20px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .catalogo {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .producto {
+      background: white;
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .producto img {
+      max-width: 100%;
+      border-radius: 12px;
+    }
+    .producto h3 {
+      margin: 10px 0 5px;
+    }
+    .producto p {
+      margin: 5px 0;
+      color: #555;
+    }
+    .btn-comprar {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background: #25D366;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .btn-comprar:hover {
+      background: #1ebe5c;
+    }
+  </style>
+</head>
+<body>
+<header>
+    TALCA SCENT
+  </header>
+<section class="catalogo">
+<!-- Aquí irían los 20 productos -->
+<div class="producto"><img src="img/lattafa-khamrah-qahwa.jpg"/><h3>Lattafa Khamrah Qahwa</h3><p>5ml - $3.500</p><a class="btn-comprar" href="https://wa.me/56991778177?text=Hola,%20quiero%20comprar%20Lattafa%20Khamrah%20Qahwa%205ml" target="_blank">Comprar</a></div>
+<div class="producto"><img src="img/ralph-polo-67.jpg"/><h3>Ralph Lauren Polo 67</h3><p>5ml - $6.000</p><a class="btn-comprar" href="https://wa.me/56991778177?text=Hola,%20quiero%20comprar%20Ralph%20Lauren%20Polo%2067%205ml" target="_blank">Comprar</a></div>
+<div class="producto"><img src="img/intimation-dupe.jpg"/><h3>Intimation (Dupe Imagination by Louis Vuitton)</h3><p>5ml - $2.000</p><a class="btn-comprar" href="https://wa.me/56991778177?text=Hola,%20quiero%20comprar%20Intimation%205ml" target="_blank">Comprar</a></div>
+<div class="producto"><img src="img/acqua-di-gio-profondo.jpg"/><h3>Giorgio Armani Acqua Di Gio Profondo</h3><p>5ml - $5.000</p><a class="btn-comprar" href="https://wa.me/56991778177?text=Hola,%20quiero%20comprar%20Acqua%20Di%20Gio%20Profondo%205ml" target="_blank">Comprar</a></div>
+<div class="producto"><img src="img/hermes-h24.jpg"/><h3>Hermes H24</h3><p>5ml - $6.000</p><a class="btn-comprar" href="https://wa.me/56991778177?text=Hola,%20quiero%20comprar%20Hermes%20H24%205ml" target="_blank">Comprar</a></div>
+<div class="producto"><img src="img/stronger-with-you.jpg"/><h3>Emporio Armani Stronger With You Intensely</h3><p>5ml - $7.000</p><a class="btn-comprar" href="https://wa.me/56991778177?text=Hola,%20quiero%20comprar%20Stronger%20With%20You%20Intensely%205ml" target="_blank">Comprar</a></div>
+<div class="producto"><img src="img/liquid-braun.jpg"/><h3>French Avenue Liquid Braun (dupe Marly Parfum Althair)</h3><p>5ml - $3.500</p><a class="btn-comprar" href="https://wa.me/56991778177?text=Hola,%20quiero%20comprar%20Liquid%20Braun%205ml" target="_blank">Comprar</a></div>
+<!-- Nuevos -->
+<div class="producto"><img src="img/hugo-boss-bottled.jpg"/><h3>Hugo Boss No 6 Bottled EDT</h3><p>5ml - $3.000</p><a class="btn-comprar" href="https://wa.me/56991778177?text=Hola,%20quiero%20comprar%20Hugo%20Boss%20No%206%20Bottled%205ml" target="_blank">Comprar</a></div>
+<div class="producto"><img src="img/colour-me-black.jpg"/><h3>Colour Me Black EDP</h3><p>5ml - $1.500 (Inspirado en Invictus by Paco Rabanne)</p><a class="btn-comprar" href="https://wa.me/56991778177?text=Hola,%20quiero%20comprar%20Colour%20Me%20Black%205ml" target="_blank">Comprar</a></div>
+<div class="producto"><img src="img/lattafa-al-dur-al-maknoon.jpg"/><h3>Lattafa Al Dur Al Maknoon EDP</h3><p>5ml - $1.500 (Inspirado en Adventus by Creed)</p><a class="btn-comprar" href="https://wa.me/56991778177?text=Hola,%20quiero%20comprar%20Lattafa%20Al%20Dur%20Al%20Maknoon%205ml" target="_blank">Comprar</a></div>
+<div class="producto"><img src="img/lattafa-asad-zanzibar.jpg"/><h3>Lattafa Asad Zanzibar EDP</h3><p>5ml - $1.500 (Inspirado en Le Beau Le Parfum de JPG)</p><a class="btn-comprar" href="https://wa.me/56991778177?text=Hola,%20quiero%20comprar%20Lattafa%20Asad%20Zanzibar%205ml" target="_blank">Comprar</a></div>
+<div class="producto"><img src="img/lattafa-qaed-al-fursan.jpg"/><h3>Lattafa Qaed Al Fursan EDP</h3><p>5ml - $1.500 (Inspirado en Black XS by Paco Rabanne)</p><a class="btn-comprar" href="https://wa.me/56991778177?text=Hola,%20quiero%20comprar%20Lattafa%20Qaed%20Al%20Fursan%205ml" target="_blank">Comprar</a></div>
+<div class="producto"><img src="img/maison-toro.jpg"/><h3>Maison Alahmbra Toro Pour Homme EDP</h3><p>5ml - $1.500 (Inspirado en Terre d'Hermès by Hermès)</p><a class="btn-comprar" href="https://wa.me/56991778177?text=Hola,%20quiero%20comprar%20Maison%20Alahmbra%20Toro%205ml" target="_blank">Comprar</a></div>
+<div class="producto"><img src="img/lattafa-fakhar-extrait.jpg"/><h3>Lattafa Fakhar Extrait EDP</h3><p>5ml - $2.000 (Inspirado en One Million Parfum by Paco Rabanne)</p><a class="btn-comprar" href="https://wa.me/56991778177?text=Hola,%20quiero%20comprar%20Lattafa%20Fakhar%20Extrait%205ml" target="_blank">Comprar</a></div>
+<div class="producto"><img src="img/lattafa-oud-for-glory.jpg"/><h3>Lattafa Oud For Glory EDP</h3><p>5ml - $2.000 (Inspirado en Oud Greatness by Initio)</p><a class="btn-comprar" href="https://wa.me/56991778177?text=Hola,%20quiero%20comprar%20Lattafa%20Oud%20For%20Glory%205ml" target="_blank">Comprar</a></div>
+<div class="producto"><img src="img/stallion-53.jpg"/><h3>Stallion 53 EDP</h3><p>5ml - $2.000 (Inspirado en Santal 33 by Le Labo)</p><a class="btn-comprar" href="https://wa.me/56991778177?text=Hola,%20quiero%20comprar%20Stallion%2053%205ml" target="_blank">Comprar</a></div>
+<div class="producto"><img src="img/lattafa-fakhar-man.jpg"/><h3>Lattafa Fakhar Man EDP</h3><p>5ml - $2.500 (Inspirado en YSL EDP)</p><a class="btn-comprar" href="https://wa.me/56991778177?text=Hola,%20quiero%20comprar%20Lattafa%20Fakhar%20Man%205ml" target="_blank">Comprar</a></div>
+<div class="producto">
+<img alt="Paco Rabanne XS Excess EDT" src="img/paco-rabanne-xs-excess-edt.jpg"/>
+<h3>Paco Rabanne XS Excess EDT</h3>
+<p>5ml - $3.500</p>
+<a class="btn-comprar" href="https://wa.me/56991778177?text=Hola,%20quiero%20comprar%20Paco%20Rabanne%20XS%20Excess%205ml" target="_blank">Comprar</a>
+</div>
+<div class="producto">
+<img alt="Ralph Lauren Polo Blue EDT" src="img/ralph-lauren-polo-blue-edt.jpg"/>
+<h3>Ralph Lauren Polo Blue EDT</h3>
+<p>5ml - $3.500</p>
+<a class="btn-comprar" href="https://wa.me/56991778177?text=Hola,%20quiero%20comprar%20Ralph%20Lauren%20Polo%20Blue%205ml" target="_blank">Comprar</a>
+</div>
+<div class="producto">
+<img alt="Versace Dylan Blue EDT" src="img/versace-dylan-blue-edt.jpg"/>
+<h3>Versace Dylan Blue EDT</h3>
+<p>5ml - $3.500</p>
+<a class="btn-comprar" href="https://wa.me/56991778177?text=Hola,%20quiero%20comprar%20Versace%20Dylan%20Blue%205ml" target="_blank">Comprar</a>
+</div>
+<div class="producto">
+<img alt="Hugo Boss No 6 Bottled EDT" src="img/hugo-boss-no6-bottled-edt.jpg"/>
+<h3>Hugo Boss No 6 Bottled EDT</h3>
+<p>5ml - $3.000</p>
+<a class="btn-comprar" href="https://wa.me/56991778177?text=Hola,%20quiero%20comprar%20Hugo%20Boss%20No%206%20Bottled%205ml" target="_blank">Comprar</a>
+</div>
+<div class="producto">
+<img alt="Lattafa His Confession EDP" src="img/lattafa-his-confession-edp.jpg"/>
+<h3>Lattafa His Confession EDP</h3>
+<p>5ml - $3.000 (Inspirado en Celine Black Tie)</p>
+<a class="btn-comprar" href="https://wa.me/56991778177?text=Hola,%20quiero%20comprar%20Lattafa%20His%20Confession%205ml" target="_blank">Comprar</a>
+</div>
+<div class="producto">
+<img alt="Rayhaan Elixir EDP" src="img/rayhaan-elixir-edp.jpg"/>
+<h3>Rayhaan Elixir EDP</h3>
+<p>5ml - $3.000 (Inspirado en Le Male Elixir by JPG)</p>
+<a class="btn-comprar" href="https://wa.me/56991778177?text=Hola,%20quiero%20comprar%20Rayhaan%20Elixir%205ml" target="_blank">Comprar</a>
+</div>
+<div class="producto">
+<img alt="Armaf Odyssey Mandarin Sky EDP" src="img/armaf-odyssey-mandarin-sky-edp.jpg"/>
+<h3>Armaf Odyssey Mandarin Sky EDP</h3>
+<p>5ml - $3.500 (Inspirado en Scandal EDP by JPG)</p>
+<a class="btn-comprar" href="https://wa.me/56991778177?text=Hola,%20quiero%20comprar%20Armaf%20Odyssey%20Mandarin%20Sky%205ml" target="_blank">Comprar</a>
+</div>
+<div class="producto">
+<img alt="Fragance World Spectre Wraith EDP" src="img/spectre-wraith-edp.jpg"/>
+<h3>Fragance World Spectre Wraith EDP</h3>
+<p>5ml - $3.500 (Inspirado en Black Phantom by Kilian)</p>
+<a class="btn-comprar" href="https://wa.me/56991778177?text=Hola,%20quiero%20comprar%20Spectre%20Wraith%205ml" target="_blank">Comprar</a>
+</div>
+<div class="producto">
+<img alt="Paco Rabanne One Million EDT" src="img/paco-rabanne-one-million-edt.jpg"/>
+<h3>Paco Rabanne One Million EDT</h3>
+<p>5ml - $3.500</p>
+<a class="btn-comprar" href="https://wa.me/56991778177?text=Hola,%20quiero%20comprar%20Paco%20Rabanne%20One%20Million%205ml" target="_blank">Comprar</a>
+</div>
+<div class="producto">
+<img alt="Hermes Terre d'Hermes Parfum Intense EDP" src="img/hermes-terre-dhermes-parfum-intense-edp.jpg"/>
+<h3>Hermes Terre d'Hermes Parfum Intense EDP</h3>
+<p>5ml - $7.000</p>
+<a class="btn-comprar" href="https://wa.me/56991778177?text=Hola,%20quiero%20comprar%20Hermes%20Terre%20d'Hermes%20Parfum%20Intense%205ml" target="_blank">Comprar</a>
+</div>
+<div class="producto">
+<img alt="Hugo Boss Bottled Infinite EDP" src="img/hugo-boss-bottled-infinite-edp.jpg"/>
+<h3>Hugo Boss Bottled Infinite EDP</h3>
+<p>5ml - $4.000</p>
+<a class="btn-comprar" href="https://wa.me/56991778177?text=Hola,%20quiero%20comprar%20Hugo%20Boss%20Bottled%20Infinite%205ml" target="_blank">Comprar</a>
+</div>
+<div class="producto">
+<img alt="Versace Eros Flame EDP" src="img/versace-eros-flame-edp.jpg"/>
+<h3>Versace Eros Flame EDP</h3>
+<p>5ml - $4.000</p>
+<a class="btn-comprar" href="https://wa.me/56991778177?text=Hola,%20quiero%20comprar%20Versace%20Eros%20Flame%205ml" target="_blank">Comprar</a>
+</div>
+<div class="producto">
+<img alt="Ralph Lauren Polo Blue EDP" src="img/ralph-lauren-polo-blue-edp.jpg"/>
+<h3>Ralph Lauren Polo Blue EDP</h3>
+<p>5ml - $4.500</p>
+<a class="btn-comprar" href="https://wa.me/56991778177?text=Hola,%20quiero%20comprar%20Ralph%20Lauren%20Polo%20Blue%205ml" target="_blank">Comprar</a>
+</div>
+<div class="producto">
+<img alt="Carolina Herrera Bad Boy EDP" src="img/carolina-herrera-bad-boy-edp.jpg"/>
+<h3>Carolina Herrera Bad Boy EDP</h3>
+<p>5ml - $6.500</p>
+<a class="btn-comprar" href="https://wa.me/56991778177?text=Hola,%20quiero%20comprar%20Carolina%20Herrera%20Bad%20Boy%205ml" target="_blank">Comprar</a>
+</div>
+</section>
+</body>
+</html>
